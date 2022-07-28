@@ -1,2 +1,2 @@
 # HTML-CSS-JS
-Atividades realizadas do Curso em Vídeo 
+Exercícios realizadas no Curso em Vídeo (professor Gustavo Guanabara)
