@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            /* PARA FIXAR O CABEÇALHO */
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: lightblue;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightblue;
+        }
+
+        tbody > tr:nth-child(2n) {           /*Efeito Zebrado na tabela */
+            background-color: bisque;
+        }
+
+        caption {
+            padding: 10px;
+            background-color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES 
+
+
+        TABLE
+            CAPTION (legenda)
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 649 132</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
