@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        iframe {
+            display: flex;
+            width: 95vw;
+            height: 200px;
+            margin: auto;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eligendi optio, ratione alias vitae dolorum asperiores perferendis quae autem, tempore facilis quis consequatur id illo. Inventore in iure numquam tempora.</p>
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag03.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus porro itaque temporibus. Nesciunt error dicta quo! Error quibusdam excepturi voluptatum! Quis eius modi quae cumque assumenda doloribus, dicta vitae voluptatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto cupiditate, quae ab minima ipsam reiciendis accusamus, dolore aspernatur sint similique, dolores distinctio voluptatum ea vero omnis. Assumenda optio eligendi et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, iste ex. Dicta aut placeat exercitationem, tempore optio incidunt quia, neque iusto consectetur fuga unde debitis! Quasi quas aliquid illum quibusdam.</p>
+
+    <!-- 
+        sandbox="sandbox"             -> Não permite que o site rode como iframe em outros sites
+        sandbox="allow-same-origin"   -> Permite somente paginas da mesma origem
+        sandbox="allow-scripts"       -> Permite rodar scripts em iframe
+        referrerpolicy="no-referrer"  -> Não captura dados para mecanismos de busca
+    -->
+
+    <iframe id="tela" name="frame" src="paginas-extras/pag01.html" frameborder="0" sandbox="sandbox">
+        <p>Não foi possível carregar</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio provident ad quo nesciunt distinctio blanditiis sequi rerum similique ipsam vitae, asperiores eos nobis numquam mollitia voluptatum unde atque placeat obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae dicta voluptate alias quae rerum explicabo quod quos accusantium veniam, reiciendis optio iste doloremque neque assumenda quia doloribus! Dolorum, architecto?</p>
+</body>
+</html>
